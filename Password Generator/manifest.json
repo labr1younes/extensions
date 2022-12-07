@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Password Generator",
+  "description": "Generate random passwords ",
+  "version": "1.0.0",
+  "author": "Ahmed Younes",
+  "icons": {
+        "16": "/images/lock 16.png",
+        "32": "/images/lock 32.png",
+        "48": "/images/lock 64.png",
+        "128": "/images/lock 128.png"
+    },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/lock 16.png",
+      "32": "images/lock 32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+
+}
