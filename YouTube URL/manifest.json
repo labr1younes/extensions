@@ -4,7 +4,7 @@
   "description": "get the URL of the youtube video ",
   "version": "0.0.1",
   "author": "Ahmed Younes",
-  "permissions": ["tabs","https://www.youtube.com/*"],
+  "permissions": ["tabs","https://www.youtube.com/*","storage"],
 
   "icons": {
         "16": "/images/link 16.png",
