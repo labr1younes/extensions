@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube URL",
+  "description": "get the URL of the youtube video ",
+  "version": "0.0.1",
+  "author": "Ahmed Younes",
+  "permissions": ["tabs","https://www.youtube.com/*"],
+
+  "icons": {
+        "16": "/images/link 16.png",
+        "32": "/images/link 32.png",
+        "48": "/images/link 64.png",
+        "128": "/images/link 128.png"
+    },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "images/link 16.png",
+      "32": "images/link 32.png"
+    },
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+
+}

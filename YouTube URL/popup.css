@@ -1,0 +1,33 @@
+Body{
+  height: 167px;
+  width: 270px;
+  font-family: Roboto, sans-serif;
+  color: #515a6e;
+  /* background-color: 	#20B2AA; */
+
+}
+
+button {
+margin : 0px 2px 0px 0px;
+}
+
+#copybtnid{
+
+}
+
+form{
+  padding : 5px 0px 5px 0px;
+}
+
+.div_right {
+float : right;
+}
+
+.div_left {
+float : left;
+}
+
+#passlenid{
+width: 40px;
+
+}
