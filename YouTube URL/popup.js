@@ -1,3 +1,13 @@
+function gettin_tab() {
+
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    let tab = tabs[0];
+    let tmpurl = new URL(tab.url);
+    console.log(tmpurl);
+  });
+
+}
+
 document.addEventListener('DOMContentLoaded', function() {
 
   var checkButton = document.getElementById('geturlbtn');
@@ -8,13 +18,3 @@ document.addEventListener('DOMContentLoaded', function() {
   }, false);
 
 }, false);
-
-function gettin_tab() {
-
-  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    var tab = tabs[0];
-
-    alert(tab.url);
-  });
-
-}
