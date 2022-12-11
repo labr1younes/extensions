@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "Youtube URL",
   "description": "get the URL of the youtube video ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ahmed Younes",
-  "permissions": ["tabs","https://www.youtube.com/*","storage"],
+  "permissions": ["tabs","storage","activeTab"],
 
   "icons": {
         "16": "/images/link 16.png",
